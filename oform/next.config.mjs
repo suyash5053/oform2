@@ -1,8 +1,6 @@
-/** @type {import('next').NextConfig} */
+// next.config.mjs
 const nextConfig = {
-  experimental: {
-      serverActions: true,
-  }
-}
+  // Your Next.js configuration options here
+};
 
-module.exports = nextConfig
+export default nextConfig;
